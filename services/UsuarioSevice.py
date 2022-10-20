@@ -18,7 +18,7 @@ async def registrar_usuario(usuario: UsuarioCriarModel):
                 "status": 400
             }
         else:
-            novo_usuario = await  criar_usuario(usuario)
+            novo_usuario = await criar_usuario(usuario)
 
             return {
                 "mensagem": "Usuario cadastrado com sucesso!",
