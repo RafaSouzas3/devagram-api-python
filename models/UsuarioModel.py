@@ -1,6 +1,6 @@
 from typing import List
 
-from fastapi import Form, UploadFile
+from fastapi import UploadFile
 from pydantic import BaseModel, Field, EmailStr
 from utils.DecoratorUtil import DecoratorUtil
 

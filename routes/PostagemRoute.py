@@ -1,7 +1,4 @@
-import os
-
-from fastapi import APIRouter, HTTPException, Depends, Header, UploadFile, Body
-from datetime import datetime
+from fastapi import APIRouter, HTTPException, Depends, Header, Body
 from middlewares.JWTMiddleware import verificar_token
 from models.ComentarioModel import ComentarioCriarModel, ComentarioAtualizarModel
 from models.PostagemModel import PostagemCriarModel
