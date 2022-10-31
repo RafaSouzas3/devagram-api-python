@@ -1,3 +1,1 @@
-web: python Server.py
-
-heroku buildpacks:set heroku/python
+web: web: gunicorn app.web:app --log-file=-
